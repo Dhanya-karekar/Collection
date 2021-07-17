@@ -12,7 +12,7 @@ public class AlcoholTester {
 		AlcoholDTO dto2 = new AlcoholDTO("Jonny Walker", 1000, 160, false);
 		AlcoholDTO dto3 = new AlcoholDTO("Chivas-S", 2000, 90, false);
 		AlcoholDTO dto4 = new AlcoholDTO("Black Dog", 2500, 120, true);
-		AlcoholDTO dto5 = new AlcoholDTO("Blenders Pride", 1999, 30, true);
+		AlcoholDTO dto5 = new AlcoholDTO("Blender's Pride", 1999, 30, true);
 		AlcoholDTO dto6 = new AlcoholDTO("Teacher's", 2999, 60, true);
 
 		List<AlcoholDTO> list = new ArrayList<>();
@@ -22,6 +22,7 @@ public class AlcoholTester {
 		list.add(dto4);
 		list.add(dto5);
 		list.add(dto6);
+
 		for (AlcoholDTO alcohol : list) {
 			System.out.println(alcohol);
 
